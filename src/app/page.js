@@ -253,9 +253,9 @@ export default function Component() {
                 />
                 <h3 className="text-xl font-bold">SATAT initiative launched by Former Petroleum Minister promoting Compressed Bio-Gas</h3>
                 <p>
-                An innovative step to encourage the adoption of Compressed Bio-Gas (CBG) as an eco-friendly transportation fuel, was introduced by the then Hon’ble Union Minister of Petroleum and Natural Gas & Skill Development and Entrepreneurship on October 1, 2018.
+                An innovative step to encourage the adoption of Compressed Bio-Gas (CBG) as an eco-friendly transportation fuel, was introduced by the then Honble Union Minister of Petroleum and Natural Gas & Skill Development and Entrepreneurship on October 1, 2018.
                 </p>
-                <Link className="text-green-500 hover:underline" href="#">
+                <Link className="text-green-500 hover:underline" href="https://www.hindustanpetroleum.com/pages/satat" target="_blank">
                   Read More
                 </Link>
               </div>
@@ -273,9 +273,9 @@ export default function Component() {
                 />
                 <h3 className="text-xl font-bold">Govt aims to eliminate diesel, petrol vehicles in India by 2034: Gadkari</h3>
                 <p>
-                Mandi (Himachal Pradesh) [India], May 29 (ANI): Union Minister Nitin Gadkari said on Wednesday that the government has set a target of eliminating diesel and petrol vehicles within 10 years. “I want to eliminate diesel and petrol vehicles from this country within 10 years" Gadkari said while addressing a gathering here.
+                Mandi (Himachal Pradesh) [India], May 29 (ANI): Union Minister Nitin Gadkari said on Wednesday that the government has set a target of eliminating diesel and petrol vehicles within 10 years. I want to eliminate diesel and petrol vehicles from this country within 10 years Gadkari said while addressing a gathering here.
                   </p>
-                <Link className="text-green-500 hover:underline" href="#">
+                <Link className="text-green-500 hover:underline" target="_blank" href="https://theprint.in/economy/govt-aims-to-eliminate-diesel-petrol-vehicles-in-india-by-2034-gadkari/2107115/">
                   Read More
                 </Link>
               </div>
@@ -295,7 +295,7 @@ export default function Component() {
                 <p>
                 New Delhi: The government is set to introduce fiscal incentives for City Gas Distribution (CGD) entities to integrate Compressed Bio-Gas (CBG) into their operations, in a bid to boost domestic gas production and reduce dependence on imports.
                   </p>
-                <Link className="text-green-500 hover:underline" href="#">
+                <Link className="text-green-500 hover:underline" href="https://energy.economictimes.indiatimes.com/news/oil-and-gas/govt-to-roll-out-fiscal-incentives-for-cgd-cbg-integration-to-boost-domestic-gas-supply/107835914" target="_blank">
                   Read More
                 </Link>
               </div>
