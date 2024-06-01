@@ -204,7 +204,7 @@ export default function Component() {
                   <CheckIcon className="h-6 w-6 text-green-500 mt-1" />
                   <p>
                     We stay at the forefront of renewable energy technology, constantly exploring new and innovative
-                    solutions to meet our customers' needs.
+                    solutions to meet our customers needs.
                   </p>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -216,14 +216,14 @@ export default function Component() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="flex jus items-center">
               <img
                 alt="About Zydus Green Energy"
                 className="rounded-lg"
                 height="400"
-                src="/placeholder.svg"
+                src="/img1.png"
                 style={{
-                  aspectRatio: "600/400",
+                  aspectRatio: "700/700",
                   objectFit: "cover",
                 }}
                 width="600"
@@ -394,14 +394,14 @@ export default function Component() {
           <LeafyGreenIcon className="h-6 w-6" />
           <span>© 2024 Zydus Green Energy PVT LTD</span>
         </div>
-        <nav className="hidden md:flex items-center space-x-6">
+        {/* <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#">
             Privacy Policy
           </Link>
           <Link className="hover:underline" href="#">
             Terms of Service
           </Link>
-        </nav>
+        </nav> */}
       </footer>
     </>
   )
