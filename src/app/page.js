@@ -11,7 +11,7 @@ export default function Component() {
     <>
       <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0">
         <div className="flex items-center space-x-4">
-          <img src="/zydus_logo.png" alt="" className="w-10 h-10" />
+          {/* <img src="/zydus_logo.png" alt="" className="w-10 h-10" /> */}
           <span className="text-xl font-bold">Zydus Green Energy PVT LTD</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
