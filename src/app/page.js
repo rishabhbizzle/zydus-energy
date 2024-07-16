@@ -321,33 +321,9 @@ export default function Component() {
             </div>
           </div>
         </section> */}
-        <section className="bg-gray-900 text-white py-20 px-6 md:px-12" id="contact">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold">Get in Touch</h2>
-              <p>Have a question or ready to start your renewable energy project? Contact us today!</p>
-              <form className="space-y-4">
-                <Input
-                  className="w-full bg-gray-800 border-gray-700 focus:border-green-500 focus:ring-green-500"
-                  placeholder="Name"
-                  type="text"
-                />
-                <Input
-                  className="w-full bg-gray-800 border-gray-700 focus:border-green-500 focus:ring-green-500"
-                  placeholder="Email"
-                  type="email"
-                />
-                <Textarea
-                  className="w-full bg-gray-800 border-gray-700 focus:border-green-500 focus:ring-green-500"
-                  placeholder="Message"
-                />
-                <Button type="submit" variant="primary">
-                  Submit
-                </Button>
-              </form>
-            </div>
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold">Contact Information</h2>
+        <section className="bg-gray-800 text-white py-20 px-6 md:px-12" id="contact">
+            <div className="space-y-6 flex justify-evenly items-center ">
+              <h2 className="text-3xl font-bold">Contact Information:</h2>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2">
                   <LocateIcon className="h-6 w-6" />
@@ -363,7 +339,6 @@ export default function Component() {
                 </div>
               </div>
             </div>
-          </div>
         </section>
       </main>
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-12 flex items-center justify-between">
