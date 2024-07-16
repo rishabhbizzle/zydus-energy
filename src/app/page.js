@@ -12,7 +12,7 @@ export default function Component() {
       <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0">
         <div className="flex items-center space-x-4">
           {/* <img src="/zydus_logo.png" alt="" className="w-10 h-10" /> */}
-          <span className="text-xl font-bold">Zydus Green Energy PVT LTD</span>
+          <span className="text-xl font-bold">Zydus Green Energy pvt ltd</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#">
@@ -355,7 +355,7 @@ export default function Component() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <PhoneIcon className="h-6 w-6" />
-                  <p>+91 9355351600</p>
+                  <p>+91 9355351600 , 11-4370-2883</p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MailIcon className="h-6 w-6" />
@@ -369,16 +369,8 @@ export default function Component() {
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <LeafyGreenIcon className="h-6 w-6" />
-          <span>© 2024 Zydus Green Energy PVT LTD</span>
+          <span>© 2024 Zydus Green Energy pvt ltd</span>
         </div>
-        {/* <nav className="hidden md:flex items-center space-x-6">
-          <Link className="hover:underline" href="#">
-            Privacy Policy
-          </Link>
-          <Link className="hover:underline" href="#">
-            Terms of Service
-          </Link>
-        </nav> */}
       </footer>
     </>
   )
@@ -400,50 +392,6 @@ function BatteryIcon(props) {
     >
       <rect width="16" height="10" x="2" y="7" rx="2" ry="2" />
       <line x1="22" x2="22" y1="11" y2="13" />
-    </svg>
-  )
-}
-
-
-function FocusIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="3" />
-      <path d="M3 7V5a2 2 0 0 1 2-2h2" />
-      <path d="M17 3h2a2 2 0 0 1 2 2v2" />
-      <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
-      <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
-    </svg>
-  )
-}
-
-
-function InfinityIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z" />
     </svg>
   )
 }
@@ -530,53 +478,6 @@ function PhoneIcon(props) {
       strokeLinejoin="round"
     >
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-    </svg>
-  )
-}
-
-
-function RecycleIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" />
-      <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" />
-      <path d="m14 16-3 3 3 3" />
-      <path d="M8.293 13.596 7.196 9.5 3.1 10.598" />
-      <path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" />
-      <path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
-    </svg>
-  )
-}
-
-
-function ShoppingCartIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="8" cy="21" r="1" />
-      <circle cx="19" cy="21" r="1" />
-      <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
     </svg>
   )
 }

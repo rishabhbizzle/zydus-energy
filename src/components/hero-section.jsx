@@ -40,7 +40,7 @@ const HeroSection = () => {
               variants={FADE_DOWN_ANIMATION_VARIANTS}
               className="space-x-4 text-3xl font-bold tracking-tight sm:text-5xl"
             >
-              Zydus Green Energy
+              Zydus Green Energy pvt ltd
             </motion.h1>
             {/* <motion.p
               variants={FADE_DOWN_ANIMATION_VARIANTS}
@@ -53,8 +53,9 @@ const HeroSection = () => {
               variants={FADE_DOWN_ANIMATION_VARIANTS}
               className="mt-6 text-base sm:text-lg leading-8 "
             >
-              Zydus Green Energy PVT LTD is a leading provider of renewable energy solutions, committed to driving the
-              transition to a greener, more sustainable world.
+              Zydus Green Energy PVT LTD is a leading provider of renewable
+              energy solutions, committed to driving the transition to a
+              greener, more sustainable world.
             </motion.p>
 
             <motion.div
@@ -62,8 +63,12 @@ const HeroSection = () => {
               className="mt-10 flex items-center  gap-x-6 "
             >
               <div className="flex space-x-4">
-                <Button variant="primary">Learn More</Button>
-                <Button variant="secondary">Contact Us</Button>
+                <Link href={"#about-us"}>
+                  <Button variant="primary">Learn More</Button>
+                </Link>
+                <Link href={"#contact"}>
+                  <Button variant="secondary">Contact Us</Button>
+                </Link>
               </div>
             </motion.div>
           </motion.div>
