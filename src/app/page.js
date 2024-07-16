@@ -18,19 +18,21 @@ export default function Component() {
           <Link className="hover:underline" href="#">
             Home
           </Link>
-          <Link className="hover:underline" href="#">
-            CBG
-          </Link>
-          <Link className="hover:underline" href="#">
+
+          <Link className="hover:underline" href="#services" s>
             Services
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#fuels">
+            Fuels
+          </Link>
+          <Link className="hover:underline" href="#about-us">
+            About Us
+          </Link>
+          <Link className="hover:underline" href="#news">
             News
           </Link>
-          <Link className="hover:underline" href="#">
-            Finance
-          </Link>
-          <Link className="hover:underline" href="#">
+
+          <Link className="hover:underline" href="#contact">
             Contact
           </Link>
         </nav>
@@ -39,31 +41,6 @@ export default function Component() {
 
         <HeroSection />
 
-
-        {/* <section className="bg-gray-900 text-white py-20 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
-          <div className="max-w-xl space-y-4">
-            <h1 className="text-4xl font-bold">Powering a Sustainable Future</h1>
-            <p>
-              Zydus Green Energy PVT LTD is a leading provider of renewable energy solutions, committed to driving the
-              transition to a greener, more sustainable world.
-            </p>
-            <div className="flex space-x-4">
-              <Button variant="primary">Learn More</Button>
-              <Button variant="secondary">Contact Us</Button>
-            </div>
-          </div>
-          <img
-            alt="Zydus Green Energy"
-            className="mt-8 md:mt-0 max-w-[600px] w-full"
-            height="400"
-            src="https://i0.wp.com/indianinfrastructure.com/wp-content/uploads/2022/11/II-24.jpg?fit=1855%2C1042&ssl=1"
-            style={{
-              aspectRatio: "600/400",
-              objectFit: "cover",
-            }}
-            width="600"
-          />
-        </section> */}
         <section className="bg-gray-100 py-20 px-6 md:px-12" id="services">
           <div className="max-w-5xl mx-auto space-y-8">
             <div className="text-center space-y-4">
@@ -179,8 +156,8 @@ export default function Component() {
             </Tabs>
           </div>
         </section>
-        
- 
+
+
         <section className="bg-gray-100 py-20 px-6 md:px-12" id="about-us">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-6">
@@ -253,7 +230,7 @@ export default function Component() {
                 />
                 <h3 className="text-xl font-bold">SATAT initiative launched by Former Petroleum Minister promoting Compressed Bio-Gas</h3>
                 <p>
-                An innovative step to encourage the adoption of Compressed Bio-Gas (CBG) as an eco-friendly transportation fuel, was introduced by the then Honble Union Minister of Petroleum and Natural Gas & Skill Development and Entrepreneurship on October 1, 2018.
+                  An innovative step to encourage the adoption of Compressed Bio-Gas (CBG) as an eco-friendly transportation fuel, was introduced by the then Honble Union Minister of Petroleum and Natural Gas & Skill Development and Entrepreneurship on October 1, 2018.
                 </p>
                 <Link className="text-green-500 hover:underline" href="https://www.hindustanpetroleum.com/pages/satat" target="_blank">
                   Read More
@@ -273,8 +250,8 @@ export default function Component() {
                 />
                 <h3 className="text-xl font-bold">Govt aims to eliminate diesel, petrol vehicles in India by 2034: Gadkari</h3>
                 <p>
-                Mandi (Himachal Pradesh) [India], May 29 (ANI): Union Minister Nitin Gadkari said on Wednesday that the government has set a target of eliminating diesel and petrol vehicles within 10 years. I want to eliminate diesel and petrol vehicles from this country within 10 years Gadkari said while addressing a gathering here.
-                  </p>
+                  Mandi (Himachal Pradesh) [India], May 29 (ANI): Union Minister Nitin Gadkari said on Wednesday that the government has set a target of eliminating diesel and petrol vehicles within 10 years. I want to eliminate diesel and petrol vehicles from this country within 10 years Gadkari said while addressing a gathering here.
+                </p>
                 <Link className="text-green-500 hover:underline" target="_blank" href="https://theprint.in/economy/govt-aims-to-eliminate-diesel-petrol-vehicles-in-india-by-2034-gadkari/2107115/">
                   Read More
                 </Link>
@@ -291,10 +268,10 @@ export default function Component() {
                   }}
                   width="300"
                 />
-                <h3 className="text-xl font-bold">Govt to roll out fiscal incentives for CGD-CBG integration to boost domestic gas production</h3> 
+                <h3 className="text-xl font-bold">Govt to roll out fiscal incentives for CGD-CBG integration to boost domestic gas production</h3>
                 <p>
-                New Delhi: The government is set to introduce fiscal incentives for City Gas Distribution (CGD) entities to integrate Compressed Bio-Gas (CBG) into their operations, in a bid to boost domestic gas production and reduce dependence on imports.
-                  </p>
+                  New Delhi: The government is set to introduce fiscal incentives for City Gas Distribution (CGD) entities to integrate Compressed Bio-Gas (CBG) into their operations, in a bid to boost domestic gas production and reduce dependence on imports.
+                </p>
                 <Link className="text-green-500 hover:underline" href="https://energy.economictimes.indiatimes.com/news/oil-and-gas/govt-to-roll-out-fiscal-incentives-for-cgd-cbg-integration-to-boost-domestic-gas-supply/107835914" target="_blank">
                   Read More
                 </Link>
