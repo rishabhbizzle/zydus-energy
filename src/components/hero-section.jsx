@@ -16,6 +16,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+const imageList = ['https://i0.wp.com/indianinfrastructure.com/wp-content/uploads/2022/11/II-24.jpg?fit=1855%2C1042&ssl=1', '/img2.png', '/g20.webp', 'img3.png']
+
 const HeroSection = () => {
   const FADE_DOWN_ANIMATION_VARIANTS = {
     hidden: { opacity: 0, y: -10 },
@@ -90,13 +92,13 @@ const HeroSection = () => {
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
+              {imageList.map((path, index) => (
                 <CarouselItem key={index}>
                   <img
                     alt="Zydus Green Energy"
                     className="mt-8 md:mt-0 max-w-[600px] w-full"
                     height="400"
-                    src="https://i0.wp.com/indianinfrastructure.com/wp-content/uploads/2022/11/II-24.jpg?fit=1855%2C1042&ssl=1"
+                    src={path}
                     style={{
                       aspectRatio: "600/400",
                       objectFit: "cover",
