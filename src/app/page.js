@@ -12,7 +12,7 @@ export default function Component() {
       <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0">
         <div className="flex items-center space-x-4">
           {/* <img src="/zydus_logo.png" alt="" className="w-10 h-10" /> */}
-          <span className="text-xl font-bold">Zydus Green Energy pvt ltd</span>
+          <span className="text-xl font-bold">Zydus Green Energy Pvt Ltd</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#">
@@ -321,8 +321,8 @@ export default function Component() {
             </div>
           </div>
         </section> */}
-        <section className="bg-gray-800 text-white py-20 px-6 md:px-12" id="contact">
-            <div className="space-y-6 flex justify-evenly items-center ">
+        <section className="bg-gray-800 text-white py-20 px-6 md:px-12 " id="contact">
+            <div className="space-y-6 flex justify-evenly flex-col md:flex-row items-center ">
               <h2 className="text-3xl font-bold">Contact Information:</h2>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2">
@@ -344,7 +344,7 @@ export default function Component() {
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <LeafyGreenIcon className="h-6 w-6" />
-          <span>© 2024 Zydus Green Energy pvt ltd</span>
+          <span>© 2024 Zydus Green Energy Pvt Ltd</span>
         </div>
       </footer>
     </>
