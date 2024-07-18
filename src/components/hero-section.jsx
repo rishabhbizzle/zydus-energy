@@ -34,6 +34,7 @@ const HeroSection = () => {
     <div className="bg-gray-900 text-white flex min-h-[90vh] p-8 justify-center items-center">
       <div className="flex flex-col gap-10 md:gap-2 md:flex-row items-center justify-between">
         <div className="flex max-w-xl flex-col items-center">
+          
           <motion.div
             initial="hidden"
             className="max-w-2xl"
