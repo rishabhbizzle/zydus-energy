@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 import HeroSection from "@/components/hero-section"
 import { CheckIcon } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Modal, ModalBody, ModalContent, ModalFooter, ModalTrigger } from "@/components/ui/animated-modal"
 
 export default function Component() {
   return (
@@ -48,33 +49,61 @@ export default function Component() {
               <p>Zydus Green Energy offers a comprehensive range of renewable energy solutions to meet your needs.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
-                <SunIcon className="h-12 w-12 text-green-500" />
-                <h3 className="text-xl font-bold">Training</h3>
-                <p>
-                  We provide certified training in the field of renewable energy.
-                </p>
+              <div className="bg-white rounded-lg shadow-md p-6 space-y-4 flex flex-col justify-between">
+                <div className="">
+                  <SunIcon className="h-12 w-12 text-green-500" />
+                  <h3 className="text-xl font-bold">Training</h3>
+                  <p>
+                    We provide certified training in the field of renewable energy.
+                  </p>
+                </div>
+                <CustomModal>
+                  <div>
+                    Content for this section not given yet.
+                  </div>
+                </CustomModal>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
-                <WindIcon className="h-12 w-12 text-green-500" />
-                <h3 className="text-xl font-bold">Licensing</h3>
-                <p>
-                  We provide licensing for renewable energy projects.
-                </p>
+              <div className="bg-white rounded-lg shadow-md p-6 space-y-4 flex flex-col justify-between">
+                <div className="">
+                  <WindIcon className="h-12 w-12 text-green-500" />
+                  <h3 className="text-xl font-bold">Licensing</h3>
+                  <p>
+                    We provide licensing for renewable energy projects.
+                  </p>
+                </div>
+                <CustomModal>
+                  <div>
+                    Content for this section not given yet.
+                  </div>
+                </CustomModal>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
-                <BatteryIcon className="h-12 w-12 text-green-500" />
-                <h3 className="text-xl font-bold">Financing</h3>
-                <p>
-                  Assisting with providing government schemes for renewable energy projects.
-                </p>
+              <div className="bg-white rounded-lg shadow-md p-6 space-y-4 flex flex-col justify-between">
+                <div className="">
+                  <BatteryIcon className="h-12 w-12 text-green-500" />
+                  <h3 className="text-xl font-bold">Financing</h3>
+                  <p>
+                    Assisting with providing government schemes for renewable energy projects.
+                  </p>
+                </div>
+                <CustomModal>
+                  <div>
+                    Content for this section not given yet.
+                  </div>
+                </CustomModal>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
-                <BatteryIcon className="h-12 w-12 text-green-500" />
-                <h3 className="text-xl font-bold">Project Implementation</h3>
-                <p>
-                  From Design, engineering, Plant Fabrication to regular services and maintenance we provide all services.
-                </p>
+              <div className="bg-white rounded-lg shadow-md p-6 space-y-4 flex flex-col justify-between">
+                <div className="">
+                  <BatteryIcon className="h-12 w-12 text-green-500" />
+                  <h3 className="text-xl font-bold">Project Implementation</h3>
+                  <p>
+                    From Design, engineering, Plant Fabrication to regular services and maintenance we provide all services.
+                  </p>
+                </div>
+                <CustomModal>
+                  <div>
+                    Content for this section not given yet.
+                  </div>
+                </CustomModal>
               </div>
             </div>
           </div>
@@ -322,23 +351,23 @@ export default function Component() {
           </div>
         </section> */}
         <section className="bg-gray-800 text-white py-20 px-6 md:px-12 " id="contact">
-            <div className="space-y-6 flex justify-evenly flex-col md:flex-row items-center ">
-              <h2 className="text-3xl font-bold">Contact Information:</h2>
-              <div className="space-y-2">
-                <div className="flex items-center space-x-2">
-                  <LocateIcon className="h-6 w-6" />
-                  <p>32, Pocket 11 Rohini Sector- 24, New Delhi-110085 India</p>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <PhoneIcon className="h-6 w-6" />
-                  <p>+91 9355351600 , 11-4370-2883</p>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <MailIcon className="h-6 w-6" />
-                  <p>info@zydusenergy.com</p>
-                </div>
+          <div className="space-y-6 flex justify-evenly flex-col md:flex-row items-center ">
+            <h2 className="text-3xl font-bold">Contact Information:</h2>
+            <div className="space-y-2">
+              <div className="flex items-center space-x-2">
+                <LocateIcon className="h-6 w-6" />
+                <p>32, Pocket 11 Rohini Sector- 24, New Delhi-110085 India</p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <PhoneIcon className="h-6 w-6" />
+                <p>+91 9355351600 , 11-4370-2883</p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <MailIcon className="h-6 w-6" />
+                <p>info@zydusenergy.com</p>
               </div>
             </div>
+          </div>
         </section>
       </main>
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-12 flex items-center justify-between">
@@ -506,3 +535,22 @@ function WindIcon(props) {
     </svg>
   )
 }
+
+
+const CustomModal = ({ children }) => (
+  <Modal>
+    <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex justify-center group/modal-btn">
+      <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
+        Read More
+      </span>
+      <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
+        ✈️
+      </div>
+    </ModalTrigger>
+    <ModalBody>
+      <ModalContent>
+        {children}
+      </ModalContent>
+    </ModalBody>
+  </Modal>
+)
